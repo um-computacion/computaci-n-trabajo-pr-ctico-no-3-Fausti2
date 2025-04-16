@@ -7,7 +7,7 @@ from unittest.mock import patch
 
 class TestCalculoNumeros(unittest.TestCase):
 
-    @patch(  # este patch controla lo que hace el input
+    @patch( 
         'builtins.input',
         return_value='400')
     
